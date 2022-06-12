@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "IrrigationMQTTIBM",
+			"path": "..\\..\\IrrigationMQTTIBM"
+		},
+		{
+			"name": "Irrigation",
+			"path": "..\\..\\Irrigation"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"arduinojson.h": "c",
+			"*.tcc": "cpp"
+		}
+	}
+}
