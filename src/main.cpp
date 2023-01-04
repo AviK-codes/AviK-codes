@@ -109,7 +109,7 @@ void loop()
     //Serial.println(millis()%1000);  
 
     //int pres = pressure >> 9;
-    int pres = pressure & 0x0000ffff;
+    int pres = (pressure & 0x0000ffff);
     buff[2] = *(((char *) (&pres)));
     buff[3] = *(((char *) (&pres)+1));  
     
